@@ -37,10 +37,3 @@ console.log(1, 2, 3)
 // use strict 
 delete Object.prototype;
 //error 
-
-
-
-// no 'use strict'
-//use strict warns us of errors  for fore debugging happeens
-delete Object.prototype;
-//false

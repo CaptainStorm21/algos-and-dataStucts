@@ -8,3 +8,39 @@ const city1 = "London"
 console.log(city1)
 
 //use strict prevents undeclared variables 
+
+
+'use strict';
+
+function (a, a, b) {
+  console.log(a, a, b)
+}
+
+console.log(1, 2, 3)
+//error because a, a params are the same
+
+
+/*
+no error 
+function (a, a, b) {
+  console.log(a, a, b)
+}
+
+console.log(1, 2, 3)
+//error because a, a params are the same
+
+*/
+
+
+'use strict';
+
+// use strict 
+delete Object.prototype;
+//error 
+
+
+
+// no 'use strict'
+//use strict warns us of errors  for fore debugging happeens
+delete Object.prototype;
+//false
